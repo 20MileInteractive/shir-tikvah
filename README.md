@@ -1,4 +1,4 @@
-shir-tikvah
-===========
+project-starter-template
+========================
 
-Temple Shir Tikvah
+Template for web projects with Hammer and Foundation4

@@ -1,0 +1,52 @@
+.masthead{
+
+	margin:1rem auto;
+
+	.hide-for-small{
+		text-align:right;
+
+		a{
+			margin-left:10px;
+		}
+		
+		img{
+			height:22px;
+
+		}
+	}
+
+	input{
+		margin-top:1rem;
+	}
+
+	.show-for-small{
+
+		margin-bottom: 1rem;
+
+		a{
+			text-align: center;
+			border-right:1px solid #ddd;
+			height:44px;
+			img{
+				margin:0 auto;
+				display:block;
+				height:30px;
+			}
+		}
+	}
+}
+
+
+
+
+@media only screen and (max-width:768px ) {
+	#header-logo{
+		text-align:center;
+	}
+
+	img{
+		display:block;
+		margin:0 auto;
+	}
+
+}
