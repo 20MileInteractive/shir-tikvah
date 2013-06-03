@@ -3891,3 +3891,43 @@ footer p {
   img {
     display: block;
     margin: 0 auto; } }
+#homepage #hero {
+  background: url("http://placehold.it/1800x800/eee/ddd&text=background+image") center center no-repeat;
+  text-align: center; }
+  #homepage #hero h1 {
+    padding: 4rem 0; }
+#homepage .panel {
+  margin-bottom: 0; }
+#homepage #panel-0 {
+  background: none;
+  border: none; }
+#homepage .bar {
+  background: #222; }
+  #homepage .bar h4 {
+    color: #ddd;
+    font-weight: normal;
+    text-align: center;
+    padding: .5rem 0;
+    margin: 0 auto;
+    border-right: 1px solid #999; }
+    #homepage .bar h4 a {
+      display: block;
+      color: #aaa; }
+    #homepage .bar h4 a:hover, #homepage .bar h4 a:active {
+      color: #fff; }
+  #homepage .bar h4:last-child {
+    border-right: none; }
+#homepage #is-it-right {
+  background: #fff;
+  padding: 3em 0;
+  text-align: center; }
+#homepage #home-events {
+  background: #ddd;
+  padding: 2em 0; }
+  #homepage #home-events img {
+    margin-top: 10px; }
+  #homepage #home-events h4 {
+    border-bottom: 1px solid #999; }
+  #homepage #home-events .large-12 {
+    text-align: center;
+    margin-top: 3em; }
