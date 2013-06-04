@@ -13,12 +13,18 @@
 
 	.home-panel {
 		margin-bottom:0;
+		min-height:250px;
+		padding-top:1em; 
+		background:rgba(0,0,0,.2);
+
 	}
 
 	#panel-0 {
 		background:none;
 		border: none;
 	}
+
+
 
 	.home-bar {
 
@@ -37,9 +43,10 @@
 			a {
 				display:block;
 				color:#aaa;
+				transition:all .2s ease-in;
 			}
 
-			a:hover,a:active {
+			a:hover,a:active,a.active {
 				color:#fff;
 			}
 
