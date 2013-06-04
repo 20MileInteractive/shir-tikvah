@@ -1,29 +1,30 @@
 #homepage{
 	
-	#hero{
+	#hero {
+
 		background: url("http://placehold.it/1800x800/eee/ddd&text=background+image") center center no-repeat;
 		text-align:center;
-	
 
 		h1{
 			padding:4rem 0;
 		}
+
 	}
 
-	.panel{
+	.home-panel {
 		margin-bottom:0;
 	}
 
-	#panel-0{
+	#panel-0 {
 		background:none;
 		border: none;
 	}
 
-	.bar{
+	.home-bar {
+
 		background:#222;
 
-
-		h4{
+		h4 {
 			color:#ddd;
 			font-weight:normal;
 			text-align:center;
@@ -33,49 +34,45 @@
 			
 
 
-			a{
+			a {
 				display:block;
 				color:#aaa;
 			}
 
-			a:hover,a:active{
+			a:hover,a:active {
 				color:#fff;
 			}
 
 		}
 
-		h4:last-child{
+		h4:last-child {
 			border-right:none;
 		}
 
-
 	}
 
-	#is-it-right{
+	#is-it-right {
+
 		background:#fff;
 		padding:3em 0;
 		text-align:center;
 	}
 
-
-	#home-events{
+	#home-events {
 		background:#ddd;
 		padding:2em 0;
 
-		img{
+		img {
 			margin-top:10px;
 		}
 
-		h4{
+		h4 {
 			border-bottom:1px solid #999;
 		}
 
-		.large-12{
+		.large-12 {
 			text-align:center;
 			margin-top: 3em;
-
 		}
 	}
-
-
 }
