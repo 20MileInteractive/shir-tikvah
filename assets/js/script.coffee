@@ -36,3 +36,12 @@ $ ->
 			$( thisButton.attr("href") ).removeClass "hide"
 
 	$(".home-bar a").on "click", homePanelToggle
+
+
+	closeButton = (evnt)->
+		evnt.preventDefault()
+		$(@).parent().parent().addClass "hide"
+		
+		if $(".home-panel").hasClass "hide"
+			$(".home-panel").removeClass "hide"
+	$(".closeButton").on "click", closeButton

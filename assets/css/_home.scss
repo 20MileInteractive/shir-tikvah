@@ -24,6 +24,15 @@
 		border: none;
 	}
 
+	.closeButton {
+		position: absolute;
+		top: 0;
+		right: 5px;
+		color:#fff;
+		background:#66;
+		border-radius:5px;
+		padding:.5rem;
+	}
 
 
 	.home-bar {
