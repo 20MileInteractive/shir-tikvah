@@ -39,6 +39,8 @@
 		padding-top:1em; 
 		background:rgba(0,0,0,.2);
 
+		h3, p {color: $pale-green;}
+
 	}
 
 	#panel-0 {
@@ -59,7 +61,11 @@
 
 	.home-bar {
 
-		background:#222;
+		background:darken($dark-teal, 10%);
+
+		.quality-a {background: $robin-blue;}
+		.quality-b {background: $yellow;}
+		.quality-c {background: $red;}
 
 		h4 {
 			color:#ddd;
