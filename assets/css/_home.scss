@@ -90,13 +90,20 @@
 
 	#is-it-right {
 
-		background:#fff;
+		background:$dark-teal;
 		padding:3em 0;
 		text-align:center;
+
+		p.lead {
+			color: $teal; 
+			font: 300 #{24px}/#{36px} $neg-font;
+
+			a {color: $pale-green;}
+		}
 	}
 
 	#home-events {
-		background:#ddd;
+		background:$tan;
 		padding:2em 0;
 
 		img {
