@@ -2,8 +2,12 @@
 	
 	#hero {
 
-		background: url("http://placehold.it/1800x800/eee/ddd&text=background+image") center center no-repeat;
+		background: url(hero-bg.png) center top no-repeat;
+		background-size: 100% auto;
 		text-align:center;
+		margin-top: -2em;
+		z-index: 10;
+		position: relative;
 
 		h1{
 			padding:4rem 0;
