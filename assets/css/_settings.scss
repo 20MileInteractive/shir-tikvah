@@ -33,7 +33,7 @@
 // $success-color: #5da423;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+   $global-radius: 5px;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -179,14 +179,14 @@
 // $label-bottom-margin: emCalc(3px);
 // $input-font-color: rgba(0,0,0,0.75);
 // $input-font-size: emCalc(14px);
-// $input-bg-color: #fff;
+   $input-bg-color: #EBEBEB;
 // $input-focus-bg-color: darken(#fff, 2%);
-// $input-border-color: darken(#fff, 20%);
+//   $input-border-color: darken(#fff, 20%);
 // $input-focus-border-color: darken(#fff, 40%);
-// $input-border-style: solid;
-// $input-border-width: 1px;
+   $input-border-style: none;
+   $input-border-width: 0px;
 // $input-disabled-bg: #ddd;
-// $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+   $input-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
 
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
@@ -326,14 +326,14 @@
 //
 
 // We use this to control alert padding.
-// $alert-padding-top: emCalc(11px);
-// $alert-padding-left: $alert-padding-top;
-// $alert-padding-right: $alert-padding-top + emCalc(10px);
-// $alert-padding-bottom: $alert-padding-top + emCalc(1px);
+   $alert-padding-top: 1em;
+   $alert-padding-left: 1.5em;
+   $alert-padding-right: 1.5em;
+   $alert-padding-bottom: 2em;
 
 // We use these to control text style.
-// $alert-font-weight: bold;
-// $alert-font-size: emCalc(14px);
+   $alert-font-weight: 300;
+   $alert-font-size: emCalc(18px);
 // $alert-font-color: #fff;
 // $alert-font-color-alt: darken($secondary-color, 60%);
 
@@ -341,16 +341,16 @@
 // $alert-function-factor: 10%;
 
 // We use these to control border styles.
-// $alert-border-style: solid;
+   $alert-border-style: none;
 // $alert-border-width: 1px;
 // $alert-border-color: darken($primary-color, $alert-function-factor);
 // $alert-bottom-margin: emCalc(20px);
 
 // We use these to style the close buttons
-// $alert-close-color: #333;
+   $alert-close-color: #fff;
 // $alert-close-position: emCalc(5px);
 // $alert-close-font-size: emCalc(22px);
-// $alert-close-opacity: 0.3;
+   $alert-close-opacity:1;
 // $alert-close-opacity-hover: 0.5;
 // $alert-close-padding: 5px 4px 4px;
 

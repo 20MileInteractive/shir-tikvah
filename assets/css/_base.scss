@@ -1,7 +1,15 @@
 // Base style sheet
 
-p, li {font-weight: 300;}
+p, li, input, select, textarea {font-weight: 300;}
 
+$robin-blue: #7EC7B7;
+$yellow: #FAE549;
+$red: #D33C1A;
+$teal: #4E9A79;
+$dark-teal: #214844;
+$pale-green: #CFEDAC;
+
+.alert-box {background-color: $robin-blue; }
 .inline-left{
 	float:left;
 	margin:0 10px 10px 0;
