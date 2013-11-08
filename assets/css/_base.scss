@@ -19,3 +19,28 @@ $neg-font: 'Signika Negative', 'Helvetica', Arial, sans-serif;
 	float:left;
 	margin:0 10px 10px 0;
 }
+
+.page-title {
+		background: url(hero-bg.png) center top no-repeat;
+		background-size: cover;
+		border-bottom: 18px solid $dark-teal;
+
+		.columns {
+			background: url(mini-tree.png) 80% -30% no-repeat;
+		}
+
+		h1 {
+			font-size: emCalc(36px);
+			color: $pale-green;
+			font-weight: 300;
+			font-family: $neg-font;
+			padding: 0; margin: 0 0 .5em 0;
+		}
+
+		.breadcrumbs {margin:1em 0 0; padding: 0;}
+}
+
+.content {
+	background: $tan;
+	padding: 2em;
+}

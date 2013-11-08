@@ -362,7 +362,7 @@
 //
 
 // We use this to set the background color for the breadcrumb container.
-// $crumb-bg: lighten($secondary-color, 5%);
+   $crumb-bg: transparent;
 
 // We use these to set the padding around the breadcrumbs.
 // $crumb-padding: emCalc(6px) emCalc(14px) emCalc(9px);
@@ -370,9 +370,9 @@
 
 // We use these to control border styles.
 // $crumb-function-factor: 10%;
-// $crumb-border-size: 1px;
-// $crumb-border-style: solid;
-// $crumb-border-color: darken($crumb-bg, $crumb-function-factor);
+   $crumb-border-size: 0;
+   $crumb-border-style: none;
+   $crumb-border-color: transparent;
 // $crumb-radius: $button-radius;
 
 // We use these to set various text styles for breadcrumbs.
