@@ -1,5 +1,21 @@
 #internal-template{
-
+	#page-title {
+		background: url(hero-bg.png) center top no-repeat;
+		background-size: cover;
+		padding-top: 24px;
+		text-align: center;
+		border-bottom: 18px solid #183B37;
+		h1 {
+			font-size: emCalc(48px);
+			color: $pale-green;
+			font-weight: 300;
+			font-family: $neg-font;
+			margin-top: 36px;
+		}
+		img {
+			display: block;
+		}
+	}
 	.panel{
 		margin:3em auto;
 	
@@ -13,11 +29,45 @@
 		}
 
 	}
+	.page-intro {
+		background: #214844;
+		text-align: center;
+		p {
+			font-size: emCalc(30px);
+			color: $teal;
+			line-height: 1.3em;	
+			margin: 1em 2em;
+		}
+	}
 
-	
+	.content p {
+		font-size: emCalc(18px);
+		color: #41412F;
+		line-height: emCalc(36px);
+	}
 }
 
 .sidebar{
-	background:#eee;
 	padding:2rem 0;
+	h5 {
+		font-size: emCalc(24px);
+		color: #214944;
+		line-height: 25px;
+		border-bottom: solid 4px #D9D9AC;
+		padding: 6px 0;
+	}
+	p {
+		font-size: emCalc(20px);
+		color: $dark-teal;
+		line-height: emCalc(25px);
+	}
+}
+@media only screen and (min-width: 768px) {
+	#internal-template #page-title {
+		text-align: left;
+		.row {
+			background: url(mini-tree.png) 80% bottom no-repeat;
+		}
+	} 
+	
 }
