@@ -10,10 +10,23 @@
 			color: $pale-green;
 			font-weight: 300;
 			font-family: $neg-font;
-			margin-top: 36px;
+			margin-top: 0;
 		}
 		img {
 			display: block;
+		}
+		.breadcrumbs {
+			margin:1em 0 0 0; padding: 0;
+			color: $dark-teal;
+			font-size: 0.6875em;
+			a {
+				font-size: 1em;
+				color: $dark-teal;
+				text-transform: uppercase;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 	.panel{
